@@ -9,7 +9,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Install any R packages
-RUN Rscript -e "install.packages(c('jsonlite', 'spdep', 'plumber', 'httr', 'dplyr'), dependencies = TRUE)"
+RUN Rscript -e "install.packages('plumber')"
 # Set port on build time
 ARG PORT=8080
 ENV PORT=${PORT}
