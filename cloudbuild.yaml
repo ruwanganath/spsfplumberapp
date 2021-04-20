@@ -22,6 +22,5 @@ steps:
         "managed",
         "--quiet",
       ]
-timeout: 3000s
 images:
   - gcr.io/awesome-162303/cloudrun-hello-r
