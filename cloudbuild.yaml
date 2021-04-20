@@ -24,3 +24,4 @@ steps:
       ]
 images:
   - gcr.io/awesome-162303/cloudrun-hello-r
+timeout: 2500s
