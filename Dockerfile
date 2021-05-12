@@ -1,6 +1,6 @@
 # Use the official R image
 # https://hub.docker.com/_/r-base
-FROM r-base
+FROM rocker/geospatial
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
